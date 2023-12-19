@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="index.css">
+
+    <script src = "index.js" ></script>
+</head>
+<body>
+    <div  class = "bg-container">
+        <div>
+            <div class="heading-container">
+            <hr class = "hr" />
+                <h4 class="heading"> 
+                    Bundle & Save
+                </h4>
+            <hr  class = "hr"/>
+            </div>
+            <div>
+                <div class="item " id = "option1">
+                <div class = "cart-container">
+                    <div class = "input-container" onclick = "onclickDiv1()" >
+                        <input type = "radio"  name = "cart" class="input"  />
+                        <div>
+                            <p class="quantity">1 Pair</p>
+                            <p class="amount">DKK 195.00</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="discount">50% off</p>
+                    </div>
+                </div>
+                <div class="second-container">
+                    <div class="dropdown">
+                        <p>size</p>
+
+                        <p>color</p>
+                    </div>
+                    <div class="dropdown-top-container">
+                        <p class="serial">#1</p>
+                        <div class='dropdown-container'>
+                            <p class="s">
+                                S
+                            </p>
+                            <img src = "Polygon 35.svg" class= "img" />
+                        </div>
+                        <div class='dropdown-container-color'>
+                            <p  class="s">
+                                colour
+                            </p>
+                            <img src = "Polygon 35.svg" class= "img" />
+                        </div>
+                    </div>
+                    <div class="dropdown-top-container">
+                        <p class="serial">#2</p>
+                        <div class='dropdown-container'>
+                            <p class="s">
+                                S
+                            </p>
+                            <img src = "Polygon 35.svg" class= "img" />
+                        </div>
+                        <div class='dropdown-container-color'>
+                            <p  class="s">
+                                colour
+                            </p>
+                            <img src = "Polygon 35.svg" class= "img" />
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="item" id = "option2">
+                   
+                   <div class = "cart-container">
+                    <div class = "input-container" onclick = "onclickDiv2()">
+                        <input type = "radio" name = "cart" class="input" />
+                        <div>
+                            <p class="quantity">2 Pair</p>
+                            <p class="amount">DKK 345.00</p>
+                        </div>
+                    </div>
+                    <div class="second ">
+                        <p class="discount most">Most Popular</p>
+                        <p class="discount">40% off</p>
+                    </div>
+                   </div>
+                   <div class="second-container">
+                    <div class="dropdown">
+                        <p >size</p>
+
+                        <p>color</p>
+                    </div>
+                    <div class="dropdown-top-container">
+                        <p class="serial">#1</p>
+                        <div class='dropdown-container'>
+                            <p  class="s">
+                                S
+                            </p>
+                            <img src = "Polygon 35.svg" class= "img" />
+                        </div>
+                        <div class='dropdown-container-color'>
+                            <p  class="s">
+                                colour
+                            </p>
+                            <img src = "Polygon 35.svg" class= "img" />
+                        </div>
+                    </div>
+                    <div class="dropdown-top-container">
+                        <p class="serial">#2</p>
+                        <div class='dropdown-container'>
+                            <p  class="s">
+                                S
+                            </p>
+                            <img src = "Polygon 35.svg" class= "img" />
+                        </div>
+                        <div class='dropdown-container-color'>
+                            <p  class="s">
+                                colour
+                            </p>
+                            <img src = "Polygon 35.svg" class= "img" />
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="item" id = "option3">
+                    <div class = "cart-container">
+                        <div class = "input-container" onclick = "onclickDiv3()">
+                            <input type = "radio"  name = "cart" class="input"  />
+                            <div>
+                                <p class="quantity">3 Pair</p>
+                                <p class="amount">DKK 528.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="discount">60% off</p>
+                        </div>
+                    </div>
+                    <div class="second-container">
+                        <div class="dropdown">
+                            <p>size</p>
+    
+                            <p>color</p>
+                        </div>
+                        <div class="dropdown-top-container">
+                            <p class="serial">#1</p>
+                            <div class='dropdown-container'>
+                                <p  class="s">
+                                    S
+                                </p>
+                                <img src = "Polygon 35.svg" class= "img" />
+                            </div>
+                            <div class='dropdown-container-color'>
+                                <p  class="s">
+                                    colour
+                                </p>
+                                <img src = "Polygon 35.svg" class= "img" />
+                            </div>
+                        </div>
+                        <div class="dropdown-top-container">
+                            <p class="serial">#2</p>
+                            <div class='dropdown-container'>
+                                <p  class="s">
+                                    S
+                                </p>
+                                <img src = "Polygon 35.svg" class= "img" />
+                            </div>
+                            <div class='dropdown-container-color'>
+                                <p  class="s">
+                                    colour
+                                </p>
+                                <img src = "Polygon 35.svg" class= "img" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "total-container">
+                <h4 class="shipping">
+                    Free 2 Day Shipping
+                </h4>
+                <h4 class="total">
+                    Total : DKK 360.00
+                </h4>
+            </div>
+            <button>+ Add to Cart
+            </button>
+            <p class="footer"><span>c</span>Powered by Pumper
+            </p>
+        </div>
+    </div>
+</body>
+</html>
