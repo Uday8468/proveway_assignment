@@ -51,7 +51,9 @@ width: 70px;
 height: 74px;
 border-radius: 12px 0px 0px 12px;
 background: #FF6B82;
-
+display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .offerText{
     font-family: Inter;
@@ -59,7 +61,13 @@ font-size: 16px;
 font-weight: 600;
 line-height: 16.35px;
 text-align: center;
+width:35px;
+height: 38px;
+color: #FFFFFF;
+}
 
+.inputDiv{
+    margin: 0 0 0 14px;
 }
 input[type="radio"] {
     -webkit-appearance: none;
@@ -81,8 +89,8 @@ input[type="radio"] {
   
   input[type="radio"]::before {
     content: "";
-    width: 0.565em;
-    height: 0.565em;
+    width: 0.6em;
+    height: 0.6em;
     border-radius: 50%;
     transform: scale(0);
     transition: 120ms transform ease-in-out;
@@ -96,13 +104,217 @@ input[type="radio"] {
   }
   
   
-  /* .custom-radio:checked::after {
-    content: '';
-    width: 9.04px;
-    height: 9.04px;
-    background-color: #FF6B82;
-    border-radius: 50%;
-    position: absolute;
-    top:2px;
-    left: 2px;
-  } */
+.spanOStyling{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 20.16px;
+text-align: center;
+
+}
+
+.paraCont{
+    display: flex;
+    flex-direction: column;
+    height: 42px;
+    gap: 6px;
+    margin-left: 17.77px;
+}
+
+.buyText{
+    font-family: Inter;
+font-size: 14.46px;
+font-weight: 400;
+line-height: 17.5px;
+text-align: left;
+color: #000000;
+margin: 0;
+}
+
+.mostPopularText{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 16.94px;
+text-align: left;
+color:#FF6B82;
+margin-left: 30.77px;
+}
+
+.totalSelectedOptionCont{
+    border: 1px solid #FF6B82;
+    width: 342px;
+border-radius: 12px;
+height: 172px;
+background: #FFF9FA;
+margin-top: 20px;
+padding-top: 20px;
+}
+.selInputAlignDiv{
+    height: 42px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 22.39px;
+}
+.selectedInputDiv{
+
+}
+
+.selectedOffDiv{
+    width: 52px;
+height: 17px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 2px;
+background: #FF6B82;
+
+}
+
+.selectedOffText{
+    font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.52px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.strikeOffText{
+    font-family: Inter;
+font-size: 9.94px;
+font-weight: 400;
+line-height: 12.03px;
+text-align: left;
+margin: 0;
+color: #9F9F9F;
+text-decoration: line-through;
+}
+
+.totalColorSelectionDiv{
+   
+}
+
+.columnAlignDiv{
+    display: flex;
+    gap: 53.21px;
+    margin-left: 55.23px;
+    margin-top: 7.35px
+}
+.columnText{
+    font-family: Inter;
+font-size: 9.94px;
+font-weight: 400;
+line-height: 12.03px;
+text-align: left;
+color: #000000;
+margin: 0;
+}
+
+.totalColSelDiv{
+    display: flex;
+    height: 25.31px;
+    margin-left: 38.06px;
+    margin-top: 6.98px;
+}
+
+.hashText{
+    font-family: Inter;
+font-size: 9.04px;
+font-weight: 400;
+line-height: 10.94px;
+text-align: left;
+color: #000000;
+}
+
+.colSelDiv{
+    display: flex;
+    border: 0.9px solid #D9D9D9;
+    background: #FFFFFF;
+    width: 65.98px;
+    margin-left: 4.37px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7.23px 0 7.23px;
+}
+
+.colOptText{
+    font-family: Inter;
+font-size: 10.85px;
+font-weight: 400;
+line-height: 13.13px;
+text-align: left;
+margin: 0;
+color: #000000;
+}
+
+.footerTextCont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 17px;
+margin-top: 18px;
+
+}
+
+.freeDeliveryText{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 16.94px;
+text-align: left;
+color: #FF6B82;
+margin: 0;
+}
+
+.priceText{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+text-align: left;
+margin: 0;
+color: #000000;
+}
+
+.AddToCartBtnCont{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FF6B82;
+    border-radius: 4px;
+    margin-top: 20px;
+    gap: 8px;
+}
+
+.footerCont{
+    display: flex;
+    height: 17px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 7px;
+    align-items: center;
+}
+
+.footerText{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 16.94px;
+text-align: left;
+margin: 0;
+color: #D4D4D4;
+}
+
+.addToCartText{
+    font-family: Inter;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.52px;
+text-align: left;
+color: #FFFFFF;
+margin: 0;
+}

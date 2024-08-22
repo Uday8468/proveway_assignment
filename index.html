@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CartPage</title>
     <link href="./index.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -13,18 +16,207 @@
         <div class="parentBgCont">
             <div class="totalContentCont">
                 <div class="logoCont">
-                   <img src="./logo.svg" draggable="false"/>
+                    <img src="./logo.svg" draggable="false" />
                 </div>
 
-                <div class="firstCont">
-                   <div class="offerCont">
-                       <div class="offerText">30% <span></span>Off</div>
-                   </div>
-                   <div>
-                    <input type="radio" name="option" class="custom-radio"/>
+                <div>
+                    <div class="firstCont">
+                        <div class="offerCont">
+                            <div class="offerText">30% <span class="spanOStyling">Off</div>
+                        </div>
+                        <div class="inputDiv">
+                            <input type="radio" name="option" class="custom-radio" value="firstOption" />
+                        </div>
+                        <div class="paraCont">
+                            <p class="buyText">Buy 1 Get 2</p>
+                            <p class="buyText" style="font-weight: 600;">$18.00 USD</p>
+                        </div>
+    
+                    </div>
+                    <div class="totalSelectedOptionCont" style="display: none;">
+                        <div class="selInputAlignDiv">
+                            <div class="selectedInputDiv">
+                                <input type="radio" name="option" class="custom-radio" value="thirdOption" checked />
+                            </div>
+                            <div class="paraCont">
+                                <p class="buyText">Buy 1 Get 2</p>
+                                <p class="buyText" style="font-weight: 600;">$18.00 USD</p>
+                            </div>
+                            <div class="paraCont">
+                                <div class="selectedOffDiv">
+                                    <p class="selectedOffText">30% Off</p>
+                                </div>
+                                <p class="strikeOffText">$10.00 USD </p>
+                            </div>
+                        </div>
 
-                   </div>
+                        <div class="totalColorSelectionDiv">
+                            <div class="columnAlignDiv">
+                                <p class="columnText">Size</p>
+                                <p class="columnText">Colour</p>
+                            </div>
+                            <div class="totalColSelDiv">
+                                <p class="hashText">#1</p>
+                                <div class="colSelDiv">
+                                    <p class="colOptText">S</p>
+                                    <img src="./dropDownIcon.svg" draggable="false" />
+                                </div>
+                                <div class="colSelDiv" style="width: 72.3px;margin-left: 7.23px;">
+                                    <p class="colOptText">Black</p>
+                                    <img src="./dropDownIcon.svg" draggable="false" />
+                                </div>
+                            </div>
+                            <div class="totalColSelDiv" style="margin-top: 7.23px;margin-left: 36.06px;">
+                                <p class="hashText">#2</p>
+                                <div class="colSelDiv">
+                                    <p class="colOptText">S</p>
+                                    <img src="./dropDownIcon.svg" draggable="false" />
+                                </div>
+                                <div class="colSelDiv" style="width: 72.3px;margin-left: 7.23px;">
+                                    <p class="colOptText">Colour</p>
+                                    <img src="./dropDownIcon.svg" draggable="false" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                
+                <div>
+                    <div class="firstCont">
+                        <div class="offerCont">
+                            <div class="offerText">30% <span class="spanOStyling">Off</div>
+                        </div>
+                        <div class="inputDiv">
+                            <input type="radio" name="option" class="custom-radio" value="secondOption" />
+                        </div>
+                        <div class="paraCont">
+                            <p class="buyText">Buy 2 Get 4</p>
+                            <p class="buyText" style="font-weight: 600;">$24.00 USD</p>
+                        </div>
+                        <p class="mostPopularText">Most Popular</p>
+                    </div>
+                    <div class="totalSelectedOptionCont" style="display: none;">
+                        <div class="selInputAlignDiv">
+                            <div class="selectedInputDiv">
+                                <input type="radio" name="option" class="custom-radio" value="thirdOption" checked />
+                            </div>
+                            <div class="paraCont">
+                                <p class="buyText">Buy 2 Get 4</p>
+                                <p class="buyText" style="font-weight: 600;">$24.00 USD</p>
+                            </div>
+                            <div class="paraCont">
+                                <div class="selectedOffDiv">
+                                    <p class="selectedOffText">30% Off</p>
+                                </div>
+                                <p class="strikeOffText">$10.00 USD </p>
+                            </div>
+                        </div>
+
+                        <div class="totalColorSelectionDiv">
+                            <div class="columnAlignDiv">
+                                <p class="columnText">Size</p>
+                                <p class="columnText">Colour</p>
+                            </div>
+                            <div class="totalColSelDiv">
+                                <p class="hashText">#1</p>
+                                <div class="colSelDiv">
+                                    <p class="colOptText">S</p>
+                                    <img src="./dropDownIcon.svg" draggable="false" />
+                                </div>
+                                <div class="colSelDiv" style="width: 72.3px;margin-left: 7.23px;">
+                                    <p class="colOptText">Black</p>
+                                    <img src="./dropDownIcon.svg" draggable="false" />
+                                </div>
+                            </div>
+                            <div class="totalColSelDiv" style="margin-top: 7.23px;margin-left: 36.06px;">
+                                <p class="hashText">#2</p>
+                                <div class="colSelDiv">
+                                    <p class="colOptText">S</p>
+                                    <img src="./dropDownIcon.svg" draggable="false" />
+                                </div>
+                                <div class="colSelDiv" style="width: 72.3px;margin-left: 7.23px;">
+                                    <p class="colOptText">Colour</p>
+                                    <img src="./dropDownIcon.svg" draggable="false" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div>
+                    <div class="firstCont" style="display: none;">
+                        <div class="offerCont">
+                            <div class="offerText">10% <span class="spanOStyling">Off</div>
+                        </div>
+                        <div class="inputDiv">
+                            <input type="radio" name="option" class="custom-radio" value="thirdOption" checked />
+                        </div>
+                        <div class="paraCont">
+                            <p class="buyText">Buy 3 Get 6</p>
+                            <p class="buyText" style="font-weight: 600;">$36.00 USD</p>
+                        </div>
+                    </div>
+                    <div class="totalSelectedOptionCont">
+                        <div class="selInputAlignDiv">
+                            <div class="selectedInputDiv">
+                                <input type="radio" name="option" class="custom-radio" value="thirdOption" checked />
+                            </div>
+                            <div class="paraCont">
+                                <p class="buyText">Buy 3 Get 6</p>
+                                <p class="buyText" style="font-weight: 600;">$36.00 USD</p>
+                            </div>
+                            <div class="paraCont">
+                                <div class="selectedOffDiv">
+                                    <p class="selectedOffText">10% Off</p>
+                                </div>
+                                <p class="strikeOffText">$10.00 USD </p>
+                            </div>
+                        </div>
+
+                        <div class="totalColorSelectionDiv">
+                            <div class="columnAlignDiv">
+                                <p class="columnText">Size</p>
+                                <p class="columnText">Colour</p>
+                            </div>
+                            <div class="totalColSelDiv">
+                                <p class="hashText">#1</p>
+                                <div class="colSelDiv">
+                                    <p class="colOptText">S</p>
+                                    <img src="./dropDownIcon.svg" draggable="false" />
+                                </div>
+                                <div class="colSelDiv" style="width: 72.3px;margin-left: 7.23px;">
+                                    <p class="colOptText">Black</p>
+                                    <img src="./dropDownIcon.svg" draggable="false" />
+                                </div>
+                            </div>
+                            <div class="totalColSelDiv" style="margin-top: 7.23px;margin-left: 36.06px;">
+                                <p class="hashText">#2</p>
+                                <div class="colSelDiv">
+                                    <p class="colOptText">S</p>
+                                    <img src="./dropDownIcon.svg" draggable="false" />
+                                </div>
+                                <div class="colSelDiv" style="width: 72.3px;margin-left: 7.23px;">
+                                    <p class="colOptText">Colour</p>
+                                    <img src="./dropDownIcon.svg" draggable="false" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footerTextCont">
+                  <p class="freeDeliveryText">Free Delivery</p>
+                  <p class="priceText">Total : $18<span style="font-weight: 500;">.00 USD</span></p>
+                </div>
+                <div class="AddToCartBtnCont">
+                   <img src="./plusIcon.svg"  draggable="false"/>
+                   <p class="addToCartText">Add To Cart</p>
+                </div>
+                <div class="footerCont">
+                    <p class="footerText">Powered by <span style="color: #FF6B82;font-weight: 500;">Pumper</span></p>
+
+                </div>
+
             </div>
         </div>
     </div>
